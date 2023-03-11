@@ -1,5 +1,5 @@
 import { afterAll, beforeAll, describe, expect, it } from "vitest"
-import { fetchData, returnError } from "./fetchData"
+import { fetchData } from "./fetchData"
 
 import { rest } from "msw"
 import { setupServer } from "msw/node"
